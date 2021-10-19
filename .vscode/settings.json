@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/3803b33b-5723-40a8-a255-00efcb3335a3/resourceGroups/rg_sonoff_api/providers/Microsoft.Web/sites/sonoff-demo-api",
+    "appService.deploySubpath": "."
+}

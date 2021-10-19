@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "1cda8c32-4498-4bc5-b295-42fb88716c59",
+		"name": "eWeLink / Sonoff",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Root",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://sonoff-demo-api.azurewebsites.net/",
+					"protocol": "https",
+					"host": [
+						"sonoff-demo-api",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pulse On Off",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://sonoff-demo-api.azurewebsites.net/pulse-on-off",
+					"protocol": "https",
+					"host": [
+						"sonoff-demo-api",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"pulse-on-off"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
